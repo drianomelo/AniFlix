@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(cabecalho.css);
+@import url(legendados.css);
 
 :root {
     --fonte: 'Open Sans', sans-serif;
@@ -15,4 +16,5 @@ body {
     font-weight: 500;
     color: var(--branco);
 
+    background-color: var(--preto);
 }
