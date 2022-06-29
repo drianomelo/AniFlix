@@ -1,0 +1,42 @@
+.nao-sabe-assistir {
+    padding: 1em;
+}
+
+.nao-sabe-assistir__imagem {
+    width: 2em;
+    margin-bottom: .5em;
+}
+
+.nao-sabe-assistir__titulo {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: .7em;
+
+}
+
+.nao-sabe-assistir__texto {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    line-height: 1.2em;
+    
+    margin-bottom: 1.5em;
+}
+
+.nao-sabe-assistir__botao {
+    background-color: var(--branco);
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 1em 2em;
+
+    margin-bottom: 1em;
+}
+
+.nao-sabe-assistir__botao::before {
+    content: url('../img/setas.svg');
+    margin: 0 1em;
+}

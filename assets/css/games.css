@@ -1,0 +1,48 @@
+.games {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+
+   background-image: linear-gradient(45deg, var(--verde), var(--verde-claro),var(--verde-escuro), var(--verde-dark),var(--preto), var(--preto), var(--preto), var(--preto), var(--preto));
+}
+
+.games__conteudo {
+    width: 50%;
+    padding: 1em 0 1em 1em;
+
+}
+
+.games__conteudo-imagem {
+    width: 6em;
+    margin-bottom: .5em;
+}
+
+.games__conteudo-texto {
+    line-height: 1.3em;
+}
+
+.games__jogo {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em 1em 1em .5em;
+    margin-right: 1em;
+    
+}
+
+.games__jogo-imagem {
+    width: 8em;
+    border-radius: 1em;
+    margin-bottom: .5em;
+}
+
+.games__jogo-titulo {
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: .3em;
+}
+
+
+.games__jogo-tema {
+    color: var(--cinza-escuro);
+}
