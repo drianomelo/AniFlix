@@ -5,12 +5,14 @@
 .legendados__titulo {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
+}
+
+.swiper-slide img {
+    width: 100%;
 }
 
 .legendados__card {
-    width: 100%;
-
-    border-radius: .3em;
-
+    border-radius: 5px;
 }
+

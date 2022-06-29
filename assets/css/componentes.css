@@ -1,0 +1,10 @@
+.novos-episodios {
+    background-color: var(--verde);
+
+    text-transform: uppercase;
+    color: var(--branco);
+
+    padding: .5em;
+
+    width: 10%;
+}
