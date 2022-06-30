@@ -23,7 +23,7 @@ O AniFlix é um projeto em desenvolvimento totalmente inspirado no Layout da Net
 
 <div align="center">
 
-https://user-images.githubusercontent.com/85702814/176772427-c1fa5a3d-d78f-4aab-9c33-0dc3b8651ebd.mp4
+![AniFlix Celular](https://user-images.githubusercontent.com/85702814/176772816-5f681435-9a79-41db-a497-de2163110df5.gif)
 
   </div>
 
