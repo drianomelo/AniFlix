@@ -31,12 +31,10 @@
     font-size: 20px;
     font-weight: 600;
 
-    padding: 1em 2em;
-
-    margin-bottom: 1em;
+    padding: .8em 1.8em;
 }
 
 .nao-sabe-assistir__botao::before {
     content: url('../img/setas.svg');
-    margin: 0 1em;
+    margin-right: 1em;
 }
