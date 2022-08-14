@@ -1,0 +1,127 @@
+.cabecalho {
+    background-image: url(../img/jujutsu.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.cabecalho__principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: .5em;
+}
+
+.cabecalho__principal-logo {
+    width: 2em;
+    height: 2.5em;
+}
+
+.cabecalho__principal-icones {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__principal-icone-link--perfil {
+    border-radius: .2em;
+
+    width: 1.45em;
+    height: 1.45em;
+}
+
+.cabecalho__principal-icone-link--tv {
+    width: 1.45em;
+    height: 1.25em;
+}
+
+.cabecalho__principal-icone-link--lupa {
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.cabecalho__principal-icone-link {
+    margin: 0 .8em;
+}
+
+.cabecalho__navbar {
+    text-align: center;
+    padding: 1em;
+}
+
+.cabecalho__navbar--link {
+    font-size: 14px;
+
+    text-decoration: none;
+    color: var(--branco);
+
+    padding: 0 1em;
+}
+
+.cabecalho__categorias {
+    transform: translate(0, 78vh);
+}
+
+.cabecalho__categorias-lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__categorias-item {
+    font-size: 12px;
+}
+
+.cabecalho__categorias-item:before {
+    content: '\2022';
+    margin:0 .4em;
+    color: var(--verde);
+}
+
+.cabecalho__categorias-item:first-child::before {
+    display: none;
+}
+
+.cabecalho__botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(0, 80vh);
+}
+
+.cabecalho__botoes-botao {
+    background-color: var(--branco);
+    border-radius: 3px;
+    color: var(--preto);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: .5em .8em .5em .5em;
+
+    margin: 0 2em;
+}
+
+.cabecalho__botoes-botao::before {
+    content: url('../img/play.svg');
+    margin: 0 .5em;
+}
+
+.cabecalho__botoes-lista, .cabecalho__botoes-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.cabecalho__botoes-lista-titulo, .cabecalho__botoes-info-titulo {
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.cabecalho__botoes-lista-imagem, .cabecalho__botoes-info-imagem {
+    width: 1em;
+    margin-bottom: .3em;
+}
+

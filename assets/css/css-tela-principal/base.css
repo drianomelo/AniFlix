@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(legendados.css);
+@import url(secoes.css);
+@import url(games.css);
+@import url(nao.css);
+@import url(rodape.css);
+
+:root {
+    --fonte: 'Open Sans', sans-serif;
+    --branco: #FFF;
+    --verde: #1bdb2b;
+    --verde-claro: #139c1f;
+    --verde-escuro: #0a4e10;
+    --verde-dark: #052908;
+    --cinza: rgb(221, 219, 219);
+    --cinza-escuro: rgb(136, 136, 136);
+    --cinza-claro: #95979A;
+    --cinza-dark: rgb(26, 26, 26);
+    --preto: #000;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight: 500;
+    color: var(--branco);
+
+    background-color: var(--preto);
+}

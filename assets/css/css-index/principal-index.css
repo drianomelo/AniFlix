@@ -1,0 +1,150 @@
+.principal {
+    height: calc(100vh - 52.8px);
+    position: relative;
+}
+
+.principal__texto {
+    font-size: 1.8em;
+    font-weight: 600;
+    text-align: center;
+
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+ 
+    width: 80%;
+}
+
+.principal__aviso {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--cinza);
+    text-align: center;
+
+    position: absolute;
+    bottom: 14%;
+    left: 20%;
+
+    width: 60%;
+}
+
+.principal__button {
+    background-color: var(--verde);
+    border: none;
+
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+
+    position: absolute;
+    bottom: 0;
+
+    padding: 1em 0;
+    width: 100%;
+}                                                               
+.principal__modal {
+    display: none;
+
+    background-color: var(--branco);
+    color: black;
+    text-align: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 100%;
+
+    z-index: 20;
+}
+
+.ativo-modal {
+    display: flex;
+    flex-direction: column;
+
+    top: -6.4%;
+}
+
+.principal__botao {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 4%;
+    right: 8%;
+}
+
+.fechar {
+    width: 1em;
+}
+
+.principal__modal-titulo {
+    font-size: 1.5em;
+    font-weight: 700;
+
+    margin: 6em auto 1em;
+    width: 50%;
+}
+
+.principal__modal-txt {
+    color: var(--cinza-escuro);
+    font-size: .9em;
+    font-weight: 400;
+
+    margin-bottom: 1.5em;
+}
+
+.principal__label {
+    width: 90%;
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.principal__input {
+    background-color: var(--cinza-input);
+    border-radius: .3em;
+    border: 1px solid var(--azul);
+
+    color: var(--preto);
+
+    margin-bottom: 1.5em;
+    padding: 1.5em .5em;
+    width: 95.5%;
+}
+
+.principal__span {
+    position: absolute;
+    color: var(--cinza-claro);
+    cursor: text;
+
+    margin: 1.25em 0 1.25em 1em;
+
+    transition: all 200ms ease;
+}
+
+.principal__label .ativo {
+    font-size: .7em;
+    margin: .5em .6em;
+
+    outline: none;
+}
+
+.principal__input:focus {
+    outline: 0;
+}
+
+.principal__modal-button {
+    background-color: var(--verde);
+    border-radius: .3em;
+
+    color: var(--branco);
+    text-decoration: none;
+
+    margin: 0 auto;
+    width: 90%;
+    padding: 1em 0;
+}

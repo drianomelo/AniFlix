@@ -1,0 +1,93 @@
+.principal {
+    margin-top: 15em;
+}
+
+.principal__formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__label {
+    width: 90%;
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.principal__input {
+    background-color: var(--cinza-input);
+    border-radius: .3em;
+    border: none;
+
+    color: var(--branco);
+
+    margin-bottom: 1em;
+    padding: 1.5em .5em;
+    width: 95.5%;
+}
+
+.principal__span {
+    position: absolute;
+    color: var(--cinza-claro);
+    cursor: text;
+
+    margin: 1.25em 0 1.25em 1em;
+
+    transition: all 200ms ease;
+}
+
+.principal__label .ativo {
+    font-size: .7em;
+    margin: .5em .6em;
+    color: var(--branco);
+}
+
+.principal__input:focus {
+    background-color: var(--cinza-input-a);
+    outline: 0;
+}
+
+.principal__botao {
+    border: 1px solid var(--cinza-claro);
+    border-radius: .3em;
+    color: var(--branco);
+    text-align: center;
+    text-decoration: none;
+    
+    margin: 1em 0 0 1.3em;
+    padding: 1em 0;
+    width: 89%;
+}
+
+.principal__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2em;
+}
+
+.principal__ajuda{
+    color: var(--cinza-claro);
+    font-size: .9em;
+    text-decoration: none;
+
+    margin-bottom: 1.5em;
+}
+
+.principal__cadastro {
+    color: var(--cinza);
+    text-decoration: none;
+    font-size: .9em;
+    font-weight: 700;
+
+    margin-bottom: 1.5em;
+}
+
+.principal__texto {
+    color: var(--cinza-claro);
+    font-size: .8em;
+    text-align: center;
+
+    width: 85%;
+}
