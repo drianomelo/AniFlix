@@ -16,7 +16,7 @@
 ## Descrição do Projeto 
 
 <p align="justify">
-O AniFlix é um projeto em desenvolvimento totalmente inspirado no Layout da Netflix. Comecei a desenvolve-lo em mobile first, utilizando apenas HTML e CSS, essas ferramentas foram usadas da melhor maneira para treinar as técnicas BEM, Atomic, responsividade e a semântica do código.
+O AniFlix é um projeto em desenvolvimento totalmente inspirado no Layout da Netflix. Comecei a desenvolve-lo em mobile first, utilizando apenas HTML e CSS, essas ferramentas foram usadas da melhor maneira para treinar as técnicas BEM, responsividade e a semântica do código.
 </p>
 
 ## Aplicação
